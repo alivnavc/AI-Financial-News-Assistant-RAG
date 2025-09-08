@@ -1,0 +1,5 @@
+2025-09-07 16:56:20,914 - ERROR - semantic_search_node failed: Could not import tiktoken python package. This is needed in order to for OpenAIEmbeddings. Please install it with `pip install tiktoken`.
+2025-09-07 16:57:55,152 - ERROR - semantic_search_node failed: Could not import tiktoken python package. This is needed in order to for OpenAIEmbeddings. Please install it with `pip install tiktoken`.
+2025-09-07 16:59:05,388 - ERROR - semantic_search_node failed: object list can't be used in 'await' expression
+2025-09-07 17:01:51,515 - ERROR - semantic_search_node failed: object list can't be used in 'await' expression
+2025-09-07 17:03:38,427 - ERROR - semantic_search_node failed: object list can't be used in 'await' expression

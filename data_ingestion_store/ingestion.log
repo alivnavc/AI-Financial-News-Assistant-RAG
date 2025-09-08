@@ -1,0 +1,21 @@
+{"ts": "2025-09-07T17:56:51", "level": "INFO", "msg": "start_ingestion", "file": "C:\\\\Users\\\\navee\\\\Documents\\\\MCP\\\\RAG Chatbot\\\\Financial News Summarizer\\\\stock_news.json", "collection": "news_articles"}
+{"ts": "2025-09-07T17:57:02", "level": "INFO", "msg": "created collection news_articles", "collection": "news_articles", "size": 1536}
+{"ts": "2025-09-07T17:57:07", "level": "INFO", "msg": "embedding_done", "count": 138, "vector_size": 1536}
+{"ts": "2025-09-07T17:57:07", "level": "INFO", "msg": "batch_upsert_ok", "batch": 64, "total": 64}
+{"ts": "2025-09-07T17:57:08", "level": "INFO", "msg": "batch_upsert_ok", "batch": 64, "total": 128}
+{"ts": "2025-09-07T17:57:08", "level": "INFO", "msg": "batch_upsert_ok", "batch": 10, "total": 138}
+{"ts": "2025-09-07T17:57:08", "level": "INFO", "msg": "ingestion_complete", "inserted": 138, "collection": "news_articles"}
+{"ts": "2025-09-07T18:02:09", "level": "INFO", "msg": "start_ingestion", "file": "C:\\\\Users\\\\navee\\\\Documents\\\\MCP\\\\RAG Chatbot\\\\Financial News Summarizer\\\\stock_news.json", "collection": "news_articles"}
+{"ts": "2025-09-07T18:02:12", "level": "INFO", "msg": "created collection news_articles", "collection": "news_articles", "size": 1536}
+{"ts": "2025-09-07T18:02:16", "level": "INFO", "msg": "embedding_done", "count": 138, "vector_size": 1536}
+{"ts": "2025-09-07T18:02:17", "level": "INFO", "msg": "batch_upsert_ok", "batch": 64, "total": 64}
+{"ts": "2025-09-07T18:02:18", "level": "INFO", "msg": "batch_upsert_ok", "batch": 64, "total": 128}
+{"ts": "2025-09-07T18:02:18", "level": "INFO", "msg": "batch_upsert_ok", "batch": 10, "total": 138}
+{"ts": "2025-09-07T18:02:18", "level": "INFO", "msg": "ingestion_complete", "inserted": 138, "collection": "news_articles"}
+{"ts": "2025-09-07T23:33:51", "level": "INFO", "msg": "start_ingestion", "file": "C:\\\\Users\\\\navee\\\\Documents\\\\MCP\\\\RAG Chatbot\\\\Financial News Summarizer\\\\data\\\\stock_news.json", "collection": "news_articles"}
+{"ts": "2025-09-07T23:33:54", "level": "INFO", "msg": "created collection news_articles", "collection": "news_articles", "size": 1536}
+{"ts": "2025-09-07T23:34:00", "level": "INFO", "msg": "embedding_done", "count": 138, "vector_size": 1536}
+{"ts": "2025-09-07T23:34:00", "level": "INFO", "msg": "batch_upsert_ok", "batch": 64, "total": 64}
+{"ts": "2025-09-07T23:34:01", "level": "INFO", "msg": "batch_upsert_ok", "batch": 64, "total": 128}
+{"ts": "2025-09-07T23:34:01", "level": "INFO", "msg": "batch_upsert_ok", "batch": 10, "total": 138}
+{"ts": "2025-09-07T23:34:01", "level": "INFO", "msg": "ingestion_complete", "inserted": 138, "collection": "news_articles"}

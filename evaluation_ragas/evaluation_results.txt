@@ -1,0 +1,100 @@
+Average Metrics: 
+(Took average of 3 data points from Run 1 ,Run 2, Run 3)
+(Note : This evaluation is based on only 3 test queries to assess the system's retrieval and generation performance. 
+Despite the small sample size, the results demonstrate robust functionality, even in cases where retrieval yields just a single document.
+The generated summaries are generally accurate and relevant, with strong recall indicating that the system retrieves pertinent information 
+effectively.Also if we take more data points to test definately the Precision and F1 scores also improves a lot.)
+***************************************************
+*ROUGE Scores:                                     *    
+*__________________________________________________*
+*Precision@TopK: 0.70, Recall@TopK: 1.00           *
+*  rouge1: Precision=0.20, Recall=0.83, F1=0.326   *
+*  rouge2: Precision=0.12, Recall=0.47, F1=0.17    *
+****************************************************
+
+Data Point 1
+=============
+Precision@TopK: 1.00, Recall@TopK: 1.00
+ROUGE Scores:
+  rouge1: Precision=0.19, Recall=0.88, F1=0.32
+  rouge2: Precision=0.10, Recall=0.48, F1=0.17
+
+
+Data Point 2
+=============
+Precision@TopK: 1.00, Recall@TopK: 1.00
+  ROUGE Scores:
+  rouge1: Precision=0.16, Recall=0.87, F1=0.27
+  rouge2: Precision=0.06, Recall=0.36, F1=0.10
+ 
+
+Data Point 3
+=============
+Precision@TopK: 0.11, Recall@TopK: 1.00
+ rouge1: Precision=0.26, Recall=0.75, F1=0.39
+ rouge2: Precision=0.20, Recall=0.58, F1=0.29
+
+==============================================================================
+Raw Evaluation Repots:
+================================================================================
+Query:  Microsoft backed OpenAI on Tuesday introduced SWE-Lancer
+Relevant Titles: ['Microsoft-Backed OpenAI Introduces SWE-Lancer Benchmark']
+Retrieved Titles: ['Microsoft-Backed OpenAI Introduces SWE-Lancer Benchmark']
+Precision@TopK: 1.00, Recall@TopK: 1.00
+ROUGE Scores:
+  rouge1: Precision=0.26, Recall=0.75, F1=0.39
+  rouge2: Precision=0.20, Recall=0.58, F1=0.29
+  rougeL: Precision=0.25, Recall=0.70, F1=0.36
+Generated Summary:
+ On Tuesday, Microsoft-backed OpenAI introduced SWE-Lancer, a new benchmark consisting of over 1,400 tests. This initiative aims to enhance the evaluation capabilities of AI models. For more details, you can read the full article [here](https://finance.yahoo.com/news/microsoft-backed-openai-introduces-swe-182754256.html).
+
+The ticker symbol for Microsoft is **MSFT**.
+================================================================================
+
+2025-09-07 18:35:28,653 - INFO - Semantic search returned 1 articles
+INFO:nodes:Semantic search returned 1 articles
+2025-09-07 18:35:30,337 - INFO - RAG summarization completed
+INFO:nodes:RAG summarization completed
+================================================================================
+Query: iPhone SE4 revenue impact?
+Relevant Titles: ["Apple's Launch of iPhone SE4 Not Seen Impacting Revenue Guidance, UBS Says"]
+Retrieved Titles: ["Apple's Launch of iPhone SE4 Not Seen Impacting Revenue Guidance, UBS Says"]
+Precision@TopK: 1.00, Recall@TopK: 1.00
+ROUGE Scores:
+  rouge1: Precision=0.16, Recall=0.87, F1=0.27
+  rouge2: Precision=0.06, Recall=0.36, F1=0.10
+  rougeL: Precision=0.11, Recall=0.60, F1=0.18
+Generated Summary:
+ According to a recent article from MT Newswires, UBS analysts have indicated that the launch of Apple's (AAPL) fourth generation iPhone SE4 is not expected to impact the company's revenue guidance. This suggests that while the new model may attract consumer interest, it will not significantly alter Apple's financial outlook or projections.
+
+For more details, you can refer to the original article here: [MT Newswires](https://finance.yahoo.com/news/apple-apos-launch-iphone-se4-152218076.html).
+
+Ticker symbol: AAPL.
+================================================================================
+
+2025-09-07 18:35:30,582 - INFO - Semantic search returned 9 articles
+INFO:nodes:Semantic search returned 9 articles
+2025-09-07 18:35:36,110 - INFO - RAG summarization completed
+INFO:nodes:RAG summarization completed
+================================================================================
+Query: Jim Cramer opinion on Amazon AI stocks?
+Relevant Titles: ['Jim Cramer on Amazon.com (AMZN): ‘Knock Yourself Out And Sell It If You Have To’']
+Retrieved Titles: ['Jim Cramer on Amazon.com (AMZN): ‘Knock Yourself Out And Sell It If You Have To’', 'Jim Cramer Says International Business Machines Corporation (IBM) ‘Is Doing Quite Well’', "The race for AI will only get 'faster and cheaper'", '25 Top AI Stocks That Could Boost Your Portfolio', 'Jim Cramer on NVIDIA Corporation (NVDA): ‘I Am Not Selling The Greatest Growth Stock Of Our Generation At 23 Times Earnings’', 'Jim Cramer Says Netflix, Inc. (NFLX) Is ‘Going Up Without A Problem’', 'Jim Cramer on NVIDIA (NVDA): ‘I Think You Have To Wait To See What The Numbers Are Because The Company’s In Quiet Period’', '25 Top AI Stocks That Could Boost Your Portfolio', '25 Top AI Stocks That Could Boost Your Portfolio']
+Precision@TopK: 0.11, Recall@TopK: 1.00
+ROUGE Scores:
+  rouge1: Precision=0.19, Recall=0.88, F1=0.32
+  rouge2: Precision=0.10, Recall=0.48, F1=0.17
+  rougeL: Precision=0.14, Recall=0.63, F1=0.23
+Generated Summary:
+ Jim Cramer has expressed a cautious yet optimistic view regarding Amazon.com, Inc. (NASDAQ: AMZN) in the context of artificial intelligence (AI) stocks. He highlighted that while AMZN is a key player in both eCommerce and cloud computing, which includes AI exposure, he believes there are other AI stocks that may offer greater promise for higher returns in a shorter timeframe.
+
+In his remarks from October 7, 2024, Cramer acknowledged that AMZN's shares had gained 26.5% since his previous comments, primarily due to a strong third-quarter earnings report. However, he noted that the stock dipped by 4% following its fourth-quarter earnings, which missed analyst estimates for cloud revenue growth. Cramer pointed out the challenges facing AMZN but refrained from outright recommending a sell, stating, "It's time to sell? I’m not so sure."
+
+Moreover, he emphasized that factors such as energy spending and GPU orders would be crucial in determining the future performance of AI stocks, including AMZN. He ranked AMZN as the top AI stock among those he discussed but suggested that investors should also consider stocks with greater upside potential.
+
+For further information, you can read the full article here: [Jim Cramer on Amazon.com (AMZN)](https://finance.yahoo.com/news/jim-cramer-amazon-com-amzn-185402909.html).
+
+- Ticker symbol for Amazon.com, Inc.: **AMZN**.
+================================================================================
+
+

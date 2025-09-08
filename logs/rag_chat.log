@@ -1,0 +1,71 @@
+2025-09-07 18:00:00,131 - INFO - Extracted ticker: None
+2025-09-07 18:00:00,133 - WARNING - No ticker found for Yahoo fetch
+2025-09-07 18:00:00,134 - WARNING - No ticker for RSS fallback
+2025-09-07 18:00:52,771 - INFO - Semantic search returned 0 articles
+2025-09-07 18:00:53,839 - INFO - Extracted ticker: TCS
+2025-09-07 18:01:07,248 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:01:07,683 - INFO - RSS fallback executed
+2025-09-07 18:01:36,207 - INFO - Semantic search returned 0 articles
+2025-09-07 18:01:37,040 - INFO - Extracted ticker: WIT
+2025-09-07 18:01:46,475 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:01:46,718 - INFO - RSS fallback executed
+2025-09-07 18:01:58,359 - INFO - Semantic search returned 0 articles
+2025-09-07 18:01:58,981 - INFO - Extracted ticker: WIPRO
+2025-09-07 18:02:00,489 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:02:00,702 - INFO - RSS fallback executed
+2025-09-07 18:02:32,994 - INFO - Semantic search returned 2 articles
+2025-09-07 18:02:37,813 - INFO - RAG summarization completed
+2025-09-07 18:03:24,535 - INFO - Semantic search returned 0 articles
+2025-09-07 18:03:26,374 - INFO - Extracted ticker: WIPRO
+2025-09-07 18:03:30,067 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:03:30,546 - INFO - RSS fallback executed
+2025-09-07 18:12:55,834 - INFO - Semantic search returned 0 articles
+2025-09-07 18:12:56,750 - INFO - Extracted ticker: AAPL
+2025-09-07 18:13:04,446 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:13:04,703 - INFO - RSS fallback executed
+2025-09-07 18:13:05,155 - INFO - Semantic search returned 0 articles
+2025-09-07 18:13:05,775 - INFO - Extracted ticker: AAPL
+2025-09-07 18:13:12,585 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:13:12,750 - INFO - RSS fallback executed
+2025-09-07 18:14:01,387 - INFO - Semantic search returned 9 articles
+2025-09-07 18:14:05,569 - INFO - RAG summarization completed
+2025-09-07 18:14:05,816 - INFO - Semantic search returned 1 articles
+2025-09-07 18:14:07,751 - INFO - RAG summarization completed
+2025-09-07 18:16:03,554 - INFO - Semantic search returned 9 articles
+2025-09-07 18:16:09,260 - INFO - RAG summarization completed
+2025-09-07 18:16:09,838 - INFO - Semantic search returned 1 articles
+2025-09-07 18:16:11,317 - INFO - RAG summarization completed
+2025-09-07 18:30:17,155 - INFO - Semantic search returned 2 articles
+2025-09-07 18:30:21,498 - INFO - RAG summarization completed
+2025-09-07 18:30:21,722 - INFO - Semantic search returned 1 articles
+2025-09-07 18:30:23,447 - INFO - RAG summarization completed
+2025-09-07 18:32:56,788 - INFO - Semantic search returned 0 articles
+2025-09-07 18:32:57,814 - INFO - Extracted ticker: OpenAI
+2025-09-07 18:32:59,982 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:33:00,263 - INFO - RSS fallback executed
+2025-09-07 18:33:00,686 - INFO - Semantic search returned 1 articles
+2025-09-07 18:33:02,361 - INFO - RAG summarization completed
+2025-09-07 18:33:02,898 - INFO - Semantic search returned 9 articles
+2025-09-07 18:33:08,472 - INFO - RAG summarization completed
+2025-09-07 18:33:48,261 - INFO - Semantic search returned 0 articles
+2025-09-07 18:33:49,121 - INFO - Extracted ticker: MSFT
+2025-09-07 18:33:59,014 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 18:33:59,215 - INFO - RSS fallback executed
+2025-09-07 18:33:59,673 - INFO - Semantic search returned 1 articles
+2025-09-07 18:34:01,315 - INFO - RAG summarization completed
+2025-09-07 18:34:01,525 - INFO - Semantic search returned 9 articles
+2025-09-07 18:34:05,393 - INFO - RAG summarization completed
+2025-09-07 18:35:26,668 - INFO - Semantic search returned 1 articles
+2025-09-07 18:35:28,237 - INFO - RAG summarization completed
+2025-09-07 18:35:28,653 - INFO - Semantic search returned 1 articles
+2025-09-07 18:35:30,337 - INFO - RAG summarization completed
+2025-09-07 18:35:30,582 - INFO - Semantic search returned 9 articles
+2025-09-07 18:35:36,110 - INFO - RAG summarization completed
+2025-09-07 20:13:40,703 - INFO - Semantic search returned 1 articles
+2025-09-07 20:13:43,820 - INFO - RAG summarization completed
+2025-09-07 20:16:30,071 - INFO - Semantic search returned 9 articles
+2025-09-07 20:16:34,451 - INFO - RAG summarization completed
+2025-09-07 20:17:42,657 - INFO - Semantic search returned 0 articles
+2025-09-07 20:17:44,283 - INFO - Extracted ticker: GOOGL
+2025-09-07 20:17:53,055 - INFO - Yahoo fetch returned 0 articles
+2025-09-07 20:17:53,408 - INFO - RSS fallback executed

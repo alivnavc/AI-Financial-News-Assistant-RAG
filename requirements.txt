@@ -1,0 +1,16 @@
+# langchain 
+# langgraph 
+qdrant-client 
+openai 
+python-dotenv
+aiohttp
+sentence-transformers
+langchain-community
+grandalf
+yfinance
+feedparser
+langgraph
+tiktoken
+rouge-score
+pydantic
+streamlit
