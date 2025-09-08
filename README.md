@@ -505,7 +505,7 @@ logging.getLogger().setLevel(logging.DEBUG)
   - Enables cost monitoring and optimization.
 
 ---
-</details/
+</details>
 
 ### Asynchronous Processing
  
