@@ -2,15 +2,19 @@
 
 ## Average Metrics
 
-(Based on 3 test queries: Run 1, Run 2, Run 3)
 Note: This evaluation is based on only 3 queries. Despite the small sample size, results show robust functionality. Summaries are generally accurate and relevant, with strong recall. With more data points, precision and F1 are expected to improve.
 
+### Retrieval Evaluation Metrics
+```
 Precision@TopK: 0.70
 Recall@TopK: 1.00
-
+```
+### Generation Evaluation Metrics
+```
 ROUGE Scores (average):
 ROUGE-1: Precision = 0.20, Recall = 0.83, F1 = 0.326
 ROUGE-2: Precision = 0.12, Recall = 0.47, F1 = 0.17
+```
 
 ## Results breakdow
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
