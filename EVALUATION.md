@@ -24,3 +24,9 @@ ROUGE-2: Precision = 0.12, Recall = 0.47, F1 = 0.17
 | 2          | iPhone SE4 revenue impact?                               | 1.00           | 1.00        | 0.16 / 0.87 / 0.27   | 0.06 / 0.36 / 0.10   |  UBS analysts report Apple’s iPhone SE4 launch is not expected to affect revenue guidance, implying minimal financial impact despite consumer interest.
 | 3          | Microsoft backed OpenAI on Tuesday introduced SWE-Lancer | 1.00           | 1.00        | 0.26 / 0.75 / 0.39   | 0.20 / 0.58 / 0.29   |  Microsoft-backed OpenAI introduced SWE-Lancer, showcasing innovation in AI with strong alignment to enterprise adoption.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Note: 
+P - Precision
+R - Recall
+F1 - F1 Score (Harmonic mean of precision and recall)
+  
