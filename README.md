@@ -372,9 +372,9 @@ python evaluation_ragas/evaluate.py
 - **Embeddings**: text-embedding-3-small (high quality and cost effective only 2% difference between small and large models) also used oiepnai since if we s=use oepnsource embedding mdoel, w enee dto sinatl strasnformers fromw hcih we cna use but it isntall torch libarrei and all which make the applciation evry wheavey fro which we can afce preblms whuel deploying due to latger size we nee mor emmeory stprage an cpu so chisesn oepnai embedding model , can go with eipsnourec when we have goo dinfarstrucre
 - **Customization**: Modify in `configs/settings.py`
 
-</details/
+</details>
 
-##Troubleshooting
+## Troubleshooting
 
 <details>
  <summary>Click here to expand</summary>
