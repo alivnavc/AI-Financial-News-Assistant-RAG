@@ -425,7 +425,7 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 
 
-## Technical Stack & Architecture Decisions
+# Technical Stack & Architecture Decisions
 
 <details>
  <summary>Click here to expand</summary>
