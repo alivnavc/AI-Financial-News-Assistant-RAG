@@ -266,7 +266,7 @@ Create a `.env` file:
 # OpenAI Configuration
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_LLM_MODEL=gpt-4o-mini
-OPENAI_EMBED_MODEL=text-embedding-3-large
+OPENAI_EMBED_MODEL=text-embedding-3-small
 
 # Qdrant Configuration
 QDRANT_HOST=localhost
