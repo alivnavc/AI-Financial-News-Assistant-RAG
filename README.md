@@ -483,7 +483,7 @@ logging.getLogger().setLevel(logging.DEBUG)
   - Efficient for small-to-medium document sets where precision is prioritized over raw retrieval speed
 
 ---
-</details/
+</details>
 
 ### Workflow Orchestration
 
