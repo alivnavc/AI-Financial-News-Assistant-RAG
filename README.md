@@ -23,6 +23,12 @@ This application combines multiple AI technologies to provide intelligent financ
 
 ## Architecture
 
+</details>
+
+<details>
+  <summary>Architecture</summary>
+
+
 ```
 ┌─────────────────────────┐
 │      Streamlit UI       │
@@ -91,6 +97,7 @@ This application combines multiple AI technologies to provide intelligent financ
 
 ```
 
+</details>
 
 **Langgraph Flow with nodes & edges**
 
