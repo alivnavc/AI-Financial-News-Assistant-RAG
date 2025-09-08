@@ -13,6 +13,11 @@ This application combines multiple AI technologies to provide intelligent financ
 - **Streamlit UI**: Interactive chat interface with conversation memory
 - **Evaluation Framework**: RAGAS-based performance assessment
 
+## Demo
+
+![Query1](results/query1.png)
+
+
 ## Architecture
 
 ```
