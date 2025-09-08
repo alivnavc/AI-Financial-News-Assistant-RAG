@@ -8,6 +8,7 @@ This application combines multiple AI technologies to provide intelligent financ
 
 - **RAG Pipeline**: Semantic search through financial news articles
 - **Vector Databse**: Qdrant(HSNW Indexing)
+- **Re-ranking**: Re-ranking the retrieved documents using Cross-encoder from huggingface sentence transfomer
 - **LangGraph Workflow**: State-based processing with conditional routing
 - **Multi-source Integration**: Qdrant vector database + Yahoo Finance API + RSS Feeds
 - **Streamlit UI**: Interactive chat interface with conversation memory
