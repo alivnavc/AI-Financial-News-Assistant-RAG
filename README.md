@@ -23,7 +23,7 @@ This application combines multiple AI technologies to provide intelligent financ
 
 
 ## Architecture
-
+<details>
 
 ```
 ┌─────────────────────────┐
@@ -92,7 +92,7 @@ This application combines multiple AI technologies to provide intelligent financ
                     └───────────────┘
 
 ```
-
+</details>
 ## Langgraph Flow with nodes & edges
 
 
