@@ -21,7 +21,6 @@ This application combines multiple AI technologies to provide intelligent financ
 
 [Click here to see evaluation results](EVALUATION.md)
 
-</details>
 
 <details>
   <summary>Architecture</summary>
