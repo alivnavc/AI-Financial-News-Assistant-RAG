@@ -422,10 +422,11 @@ logging.getLogger().setLevel(logging.DEBUG)
 - **Connection Pooling**: Singleton clients
 - **Async Processing**: Non-blocking operations
 - **Batch Operations**: Efficient database updates
+- 
+</details>
 
 
-
-# Technical Stack & Architecture Decisions
+## Technical Stack & Architecture Decisions
 
 <details>
  <summary>Click here to expand</summary>
