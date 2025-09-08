@@ -15,6 +15,8 @@ This application combines multiple AI technologies to provide intelligent financ
 
 ## Demo
 
+[Click here for Demo](DEMO.md)
+
 ![Query1](results/query1.png)
 
 When a user asks a question, the chatbot converts the query into embeddings(1536 dimensions), performs semantic search using cosine similarity, and retrieves the top K documents. These are then re-ranked, and the most relevant context is passed to the LLM to generate a response, along with the source or article link as show above
