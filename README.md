@@ -509,7 +509,10 @@ logging.getLogger().setLevel(logging.DEBUG)
 </details>
 
 ### Asynchronous Processing
- 
+
+ <details>
+ <summary>Click here to expand</summary>
+  
 #### AsyncIO Implementation
 - **Decision:** Async processing throughout the system  
 - **Rationale:**
@@ -519,9 +522,13 @@ logging.getLogger().setLevel(logging.DEBUG)
   - Maintains responsive user experience.
 
 ---
+</details/
 
 ### Error Handling & Logging
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 #### Structured Logging
 - **Decision:** Comprehensive logging with tracebacks  
 - **Rationale:**
@@ -535,9 +542,13 @@ logging.getLogger().setLevel(logging.DEBUG)
   - Provides detailed error information for troubleshooting.
 
 ---
+</details>
 
 ### Data Sources & Fallback Strategy
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 #### Multi-source Data Pipeline
 - **Decision:** Qdrant → Yahoo Finance → RSS Feed fallback  
 - **Rationale:**
@@ -558,9 +569,12 @@ logging.getLogger().setLevel(logging.DEBUG)
   - Provides latest headlines when full content is unavailable.
 
 ---
+</details>
 
 ### Challenges & Solutions
-
+<details>
+ <summary>Click here to expand</summary>
+ 
 - **SERP API Limitations:** Initially used SERP API for libve finance news but Switched to Yahoo Finance API for full content access.
 - **Content Scraping Issues:** Avoided scraping; relied on official APIs and RSS feeds due to security issues websites are not alloowing to scrape the content of the articles.
 - **Keyword Matching Limitations:** Implemented semantic search with vector embeddings.
@@ -568,9 +582,16 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 ---
 
+</details>
+
 ### Performance Optimizations
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 - **Vector Search Optimization:** HNSW indexing, batch processing, and connection pooling.
 - **Memory Management:** Async processing, efficient state handling, and proper cleanup.
 - **Resource Efficiency:** Concurrent embedding generation, non-blocking operations.
 - **Document Reranking using Cross-Encoder:** Uses Cross-Encoder to reorder retrieved documents, ensuring only highly relevant content is passed to the LLM for generation
+
+</details>
