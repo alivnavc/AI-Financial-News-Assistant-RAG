@@ -21,8 +21,6 @@ This application combines multiple AI technologies to provide intelligent financ
 
 [Click here to see evaluation results](EVALUATION.md)
 
-## Architecture
-
 </details>
 
 <details>
@@ -97,15 +95,25 @@ This application combines multiple AI technologies to provide intelligent financ
 
 ```
 
+<details>
+
 </details>
 
-**Langgraph Flow with nodes & edges**
+<details>
+  <summary>Langgraph Flow with nodes & edges</summary>
+
 
 
 ![Langgraph Graph](rag_graph.png)
 
+<details>
 
-## Project Structure
+
+<\details>
+
+<details>
+  <summary>Project Structure</summary>
+
 
 ```
 ChatBot/
@@ -144,6 +152,7 @@ ChatBot/
 └── logs/                          # Application logs
     └── rag_chat.log               # Chat application logs
 ```
+<details>
 
 ##  Core Components
 
