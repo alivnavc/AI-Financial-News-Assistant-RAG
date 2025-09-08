@@ -98,13 +98,18 @@ This application combines multiple AI technologies to provide intelligent financ
 
 ## Langgraph Flow with nodes & edges
 
-
+<details>
+ <summary>Click here to expand</summary>
+ 
 ![Langgraph Graph](rag_graph.png)
 
+</details>
 
 ## Project Structure
 
-
+<details>
+ <summary>Click here to expand</summary>
+ 
 ```
 ChatBot/
 ├── app.py                          # Main Streamlit application
@@ -143,8 +148,12 @@ ChatBot/
     └── rag_chat.log               # Chat application logs
 ```
 
+</details>
 
 ##  Core Components
+
+<details>
+ <summary>Click here to expand</summary>
 
 ### 1. **LangGraph Workflow** (`pipeline/graph.py`)
 
@@ -229,8 +238,13 @@ class OpenAIClient:
 - **Real-time Processing**: Async pipeline execution
 - **Error Handling**: Graceful failure management
 
+</details>
+
 ## Installation & Setup
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 ### 1. **Prerequisites**
 ```bash
 # Python 3.8+
@@ -282,7 +296,13 @@ python data_ingestion_store/data_ingestion.py
 streamlit run app.py
 ```
 
+</details>
+
 ## Usage
+
+
+<details>
+ <summary>Click here to expand</summary>
 
 ### **Chat Interface**
 1. **Open** `http://localhost:8501`
@@ -298,8 +318,13 @@ streamlit run app.py
 - Remembers previous queries and responses
 - Enables follow-up questions
 
+</details>
+
 ## Evaluation Framework
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 The application includes a comprehensive evaluation system using RAGAS metrics:
 
 ### **Evaluation Metrics**
@@ -325,9 +350,13 @@ test_data = [
 ```bash
 python evaluation_ragas/evaluate.py
 ```
+</details>
 
 ## Configuration Options
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 ### **Similarity Threshold**
 - **Default**: 0.6
 - **Purpose**: Filters search results by relevance
@@ -343,8 +372,13 @@ python evaluation_ragas/evaluate.py
 - **Embeddings**: text-embedding-3-small (high quality and cost effective only 2% difference between small and large models) also used oiepnai since if we s=use oepnsource embedding mdoel, w enee dto sinatl strasnformers fromw hcih we cna use but it isntall torch libarrei and all which make the applciation evry wheavey fro which we can afce preblms whuel deploying due to latger size we nee mor emmeory stprage an cpu so chisesn oepnai embedding model , can go with eipsnourec when we have goo dinfarstrucre
 - **Customization**: Modify in `configs/settings.py`
 
+</details/
+
 ##Troubleshooting
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 ### **Common Issues**
 
 
@@ -372,9 +406,13 @@ docker ps | grep qdrant
 import logging
 logging.getLogger().setLevel(logging.DEBUG)
 ```
+</details>
 
 ## Performance Optimization
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 ### **Vector Search**
 - **Index Type**: HNSW for fast similarity search and hugh accuracy
 - **Distance Metric**: Cosine similarity
@@ -389,6 +427,9 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 ## Technical Stack & Architecture Decisions
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 ### AI/ML Stack
 
 #### OpenAI GPT-4o-mini (LLM)
@@ -441,9 +482,13 @@ logging.getLogger().setLevel(logging.DEBUG)
   - Efficient for small-to-medium document sets where precision is prioritized over raw retrieval speed
 
 ---
+</details/
 
 ### Workflow Orchestration
 
+<details>
+ <summary>Click here to expand</summary>
+ 
 #### LangGraph
 - **Decision:** LangGraph for workflow management  
 - **Rationale:**
@@ -460,9 +505,10 @@ logging.getLogger().setLevel(logging.DEBUG)
   - Enables cost monitoring and optimization.
 
 ---
+</details/
 
 ### Asynchronous Processing
-
+ 
 #### AsyncIO Implementation
 - **Decision:** Async processing throughout the system  
 - **Rationale:**
