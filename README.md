@@ -1,4 +1,4 @@
-# Financial News RAG Chatbot
+# An open-source RAG chatbot for financial news, market analysis, and question answering.
 
 A sophisticated Retrieval-Augmented Generation (RAG) chatbot for financial news analysis, built with LangGraph, Streamlit, Yahoo finance and RSS feeds and advanced AI technologies.
 
